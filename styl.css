@@ -81,7 +81,7 @@ body {
 
 .produkty-wyprzedaz {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr); /* 6 items per row */
     gap: 20px;
     justify-content: center;
     padding: 0 20px;
@@ -161,7 +161,7 @@ body {
     background-color: white;
     border-radius: 8px;
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 2fr 3fr; /* Two main columns */
     gap: 20px;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -411,4 +411,9 @@ body {
 
 .Dane-Techniczne-opis td {
     color: #555;
+}
+.hidden { display: none; }
+
+a {
+    text-decoration: none;
 }
