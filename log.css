@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+#log1_html form {
+    margin-top: 10%;
+    margin-left: 20%;
+    line-height: 2em;
+    background-color: #888;
+    width: fit-content;
+    padding: 10px 25px;
+}
+#log1_html input:focus {
+    background: #aaa;
+}
+#log1_php table,#log1_php  td,#log1_php th {
+    border: 2px navy solid;
+    border-collapse: collapse;
+}
+#log1_php td #log1_php th {
+    padding:2px 4px;
+}
+#log1_php tr:hover {
+    background-color: #333;
+    color: bisque;
+}
+#log1_php tr:last-child {
+    background-color: red;
+    color: aqua;
+}
+#log1_php input[type="submit"] {
+    margin-top:2%;
+    margin-left: 10%;
+}
